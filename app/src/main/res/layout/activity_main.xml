@@ -81,9 +81,10 @@
         android:layout_height="56dp"
         android:layout_marginBottom="16dp"
         android:layout_marginStart="16dp"
-        android:background="?attr/colorAccent"
+        android:background="@drawable/oval_shape_ripple"
+        android:clickable="true"
         android:contentDescription="@string/fab"
-
+        android:elevation="6dp"
         android:src="@drawable/ic_add_black_24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent" />
@@ -94,7 +95,6 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:layout_marginEnd="16dp"
-
         android:src="@drawable/ic_add_black_24dp"
         app:elevation="6dp"
 
